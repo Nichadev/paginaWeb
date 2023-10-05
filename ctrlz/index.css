@@ -79,3 +79,33 @@ li {
     filter: brightness(40%);
 
 }
+
+/*imagenes*/
+
+.contenedor {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border: 2px blue solid;
+}
+
+td img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+table {
+    border: 2px red solid;
+    width: 80%;
+    height: 600px;
+    text-align: center;
+
+    
+}
+table td {
+    padding: 20px;
+}
+
