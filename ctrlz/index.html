@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ctrl+z</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="images/icono.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="carrusel_style.css">
+</head>
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <a href=""><img src="images/logo.png" alt=""></a>
+    </div>
+
+    <nav class="menu">
+      <ul class="ul-principal">
+        <li class="li-items"><button class="boton-items"><a href="" class="link-items">Inicio</a></button></li>
+        
+        <li class="li-items"><button class="boton-items"><a href="" class="link-items">Categoria</a></button>
+        
+          <ul class="ul-subcategoria">
+            <li><a href="">PIXELART</a></li>
+            <li><a href="">TERROR</a></li>
+            <li><a href="">ESTRATEGIA</a></li>
+            <li><a href="">ACCION</a></li>
+      
+          </ul>
+        
+        </li>
+        
+        <li class="li-items"><button class="boton-items"><a href="" class="link-items">Comunidad</a></button></li>
+        <li class="li-items"><button class="boton-items"><a href="" class="link-items">Noticias</a></button></li>
+        <li class="li-items"><button class="boton-items"><a href="" class="link-items">Foro</a></button></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <div class="imagen-fondo">
+    <img src="images/fondo.png" alt="">
+  </div>
+
+  <div id="carouselExample" class="carousel slide">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/stray.jpg" class="d-block w-50" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/ln.jpg" class="d-block w-50" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/ln2.jpg" class="d-block w-50" alt="...">
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+
+
+</body>
+</html>
