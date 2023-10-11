@@ -45,6 +45,7 @@ li {
 
 .header .menu .ul-principal .li-items:hover > .ul-subcategoria{
     display: block;
+    background-color: brown;
 }
 .header .menu .ul-principal .li-items .ul-subcategoria li{
     position: relative;
@@ -53,6 +54,8 @@ li {
 .header .menu .ul-principal .li-items .link-items {
     color: #ee3ec9;
 }
+
+
 
 .header .menu .ul-principal .li-items .link-items:hover,
 .header .menu .ul-principal .li-items .ul-subcategoria li a:hover{
@@ -80,32 +83,25 @@ li {
 
 }
 
-/*imagenes*/
+/*imagenes y tabla*/
 
 .contenedor {
     display: flex;
     position: relative;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    border: 2px blue solid;
+    
+    border: 2px red solid
+    
 }
 
 td img {
     width: 100%;
     height: auto;
-    position: relative;
 }
 
 table {
-    border: 2px red solid;
     width: 80%;
-    height: 600px;
-    text-align: center;
+    height: auto;
 
-    
-}
-table td {
-    padding: 20px;
+    border: 2px blue solid;
 }
 
