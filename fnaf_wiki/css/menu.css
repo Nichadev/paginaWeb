@@ -1,0 +1,75 @@
+
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+* {
+    font-family: 'Consolas';
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    align-items: center;
+    width: 90%;
+    padding: 10px 93px;
+
+}   
+.header .logo img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+.header .logo img:hover {
+    transform: scale(1.1);
+
+}
+
+.header .logo {
+    display: inline-block;
+}
+
+.header .menu .ul-principal li a {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.header .menu .ul-principal li .ul-subcategoria{
+    display: none;
+    position: absolute;
+
+}
+
+.header .menu .ul-principal li:hover > .ul-subcategoria{
+    display: block;
+    background-color: brown;
+}
+.header .menu .ul-principal li .ul-subcategoria li{
+    position: relative;
+    font-size: 20px;
+}
+
+.header .menu .ul-principal .li-items .link-items {
+    color: blue;
+}
+
+.header .menu .ul-principal .li-items .link-items:hover,
+.header .menu .ul-principal .li-items .ul-subcategoria li a:hover{
+    color: #edcc0f;
+}
+
+.header .menu .ul-principal .li-items .boton-items {
+    border: none;
+    background-color: brown;
+}
